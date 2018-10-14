@@ -48,13 +48,13 @@ return [
 
 		'sqlite' => [
 			'driver'   => 'sqlite',
-			'database' => storage_path().'/framework/cache/data/database.sqlite',
+			'database' => storage_path().'/database.sqlite',
 			'prefix'   => '',
 		],
 
 		'sqlite_testing' => [
 			'driver'   => 'sqlite',
-			'database' => storage_path().'/framework/cache/data/testing.sqlite',
+			'database' => storage_path().'/testing.sqlite',
 			'prefix'   => '',
 		],
 
